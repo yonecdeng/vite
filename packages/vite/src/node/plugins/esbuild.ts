@@ -10,8 +10,8 @@ import { transform } from 'esbuild'
 // TODO: import type { FSWatcher } from 'chokidar'
 import type { RawSourceMap } from '@ampproject/remapping'
 import type { InternalModuleFormat, SourceMap } from 'rollup'
-import type { TSConfckParseResult } from 'tsconfck';
-import { TSConfckCache , TSConfckParseError, parse } from 'tsconfck'
+import type { TSConfckParseResult } from 'tsconfck'
+import { TSConfckCache, TSConfckParseError, parse } from 'tsconfck'
 import {
   combineSourcemaps,
   createDebugger,
